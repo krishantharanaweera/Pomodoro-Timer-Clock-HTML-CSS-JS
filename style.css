@@ -1,0 +1,38 @@
+.container{
+    margin:0 auto;
+    max-width:400px;
+    text-align: center;
+    padding:20px;
+    font-family: cursive;
+}
+.title{
+    font-size:35px;
+    margin-bottom: 10px;
+    color:darkcyan;
+}
+.timer{
+    font-size:4rem;
+}
+button{
+    font-size:18px;
+    padding:10px 20px;
+    margin:10px;
+    color:white;
+    border:none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+button:hover{
+    color:black;
+}
+
+#start{
+    background-color: green;
+}
+#stop{
+    background-color: tomato;
+}
+#reset{
+    background-color: orangered;
+}
